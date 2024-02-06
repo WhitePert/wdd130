@@ -1,0 +1,18 @@
+body {
+    background-color: darkseagreen;
+}
+
+h1 {
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+h2{
+    background-color: lavender;
+}
+
+img{
+    width: 350px;
+}
