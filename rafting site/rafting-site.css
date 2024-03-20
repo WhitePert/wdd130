@@ -1,0 +1,47 @@
+.logo {
+    margin: 0 auto;
+    max-width: 70px;
+  }
+
+#hero-img {
+    display: block;
+    margin: 0 auto; 
+    max-width: fit-content; 
+    height: auto; 
+}
+
+#hero-msg {
+    text-align: center;
+}
+
+.home-grid {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Align items vertically in the center */
+    align-items: center; /* Align items horizontally in the center */
+}
+
+.home-grid section {
+    margin-bottom: 20px; /* Add some space between sections */
+    text-align: center;
+}
+
+.card-img {
+    max-width: 500px; /* Adjust max width to make images larger */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon {
+    max-width: 50px; /* Adjust size of icon */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.color-area {
+    width: 100%; /* Set the width of the color area */
+    height: 500px; /* Set the height of the color area */
+    background-color: #e4ca5e; /* Set the background color */
+}
+
+.footer {
+    background-color: rgb(92, 115, 55);
+}
