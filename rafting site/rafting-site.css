@@ -3,45 +3,103 @@
     max-width: 70px;
   }
 
-#hero-img {
+
+  #hero-img {
     display: block;
-    margin: 0 auto; 
-    max-width: fit-content; 
-    height: auto; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #hero-msg {
     text-align: center;
 }
 
+header {
+    background-color: #28c9e2;
+}
+
+body{
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
 .home-grid {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .home-grid section {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .card-img {
     max-width: 500px;
-    height: auto; 
+    height: auto;
 }
 
 .icon {
-    max-width: 70px; 
-    height: auto; 
+    max-width: 70px;
+    height: auto;
 }
 
 .color-area {
-    width: 100%; 
-    height: 500px; 
+    width: 100%;
+    height: 500px;
     background-color: #e4ca5e;
 }
 
 .footer {
     background-color: rgb(92, 115, 55);
+}
+
+.book,
+.join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #000; /* Use your color */
+}
+
+main section img {
+    box-sizing: border-box;
 }
