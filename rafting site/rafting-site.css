@@ -17,7 +17,7 @@
 }
 
 header {
-    background-color: #28c9e2;
+    background-color: #000000;
 }
 
 body{
@@ -54,9 +54,6 @@ nav a {
 }
 .card-img {
     border: 10px solid #d9c2a3;
-}
-main section img {
-    box-sizing: border-box;
 }
 
 .home-grid {
